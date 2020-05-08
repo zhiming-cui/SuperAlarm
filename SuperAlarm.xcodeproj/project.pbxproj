@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B46031EA2436B1A8007AE45A /* Globalvariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46031E92436B1A8007AE45A /* Globalvariable.swift */; };
+		B46031EC243867E5007AE45A /* SuperAlarmInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = B46031EB243867E5007AE45A /* SuperAlarmInfo.plist */; };
+		B4CC50C524301ED40097FC38 /* Masterdata.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4CC50C424301ED40097FC38 /* Masterdata.plist */; };
+		B4CC50C7243373580097FC38 /* ComDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CC50C6243373580097FC38 /* ComDto.swift */; };
+		B4CC50C9243373740097FC38 /* RouteDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CC50C8243373740097FC38 /* RouteDto.swift */; };
+		B4CC50CB2433738F0097FC38 /* StationDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CC50CA2433738F0097FC38 /* StationDto.swift */; };
+		B4CC50CD2433739F0097FC38 /* HistoryDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CC50CC2433739F0097FC38 /* HistoryDto.swift */; };
+		B4CC87E42425E46F0024178F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CC87E32425E46F0024178F /* AppDelegate.swift */; };
+		B4CC87E62425E46F0024178F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CC87E52425E46F0024178F /* SceneDelegate.swift */; };
+		B4CC87EB2425E46F0024178F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CC87E92425E46F0024178F /* Main.storyboard */; };
+		B4CC87F02425E4830024178F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4CC87EF2425E4830024178F /* Assets.xcassets */; };
+		B4CC87F32425E4830024178F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CC87F12425E4830024178F /* LaunchScreen.storyboard */; };
+		B4CC88012425E6B10024178F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CC88002425E6B10024178F /* MainViewController.swift */; };
+		B4CC88032425E6D60024178F /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CC88022425E6D60024178F /* HistoryViewController.swift */; };
+		B4CC88052425E6E70024178F /* LineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CC88042425E6E70024178F /* LineViewController.swift */; };
+		B4CC88072425E70C0024178F /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CC88062425E70C0024178F /* ShareViewController.swift */; };
+		B4CC88092425E7320024178F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CC88082425E7320024178F /* MapViewController.swift */; };
+		B4CC880B2425E7480024178F /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CC880A2425E7480024178F /* SettingViewController.swift */; };
+		B4CC880D2425E80A0024178F /* AlarmPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CC880C2425E80A0024178F /* AlarmPresenter.swift */; };
+		B4CC88152425E8730024178F /* DatabaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CC88142425E8730024178F /* DatabaseModel.swift */; };
+		B4CC88182425EAAD0024178F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4CC88172425EAAD0024178F /* Images.xcassets */; };
+		B4CC88252425EBFE0024178F /* SuperAlarmDBMolde.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4CC88232425EBFE0024178F /* SuperAlarmDBMolde.xcdatamodeld */; };
+		B4CC88282426F0EE0024178F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CC88272426F0EE0024178F /* MapKit.framework */; };
+		B4CC882A2426F1390024178F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CC88292426F1390024178F /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B46031E92436B1A8007AE45A /* Globalvariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globalvariable.swift; sourceTree = "<group>"; };
+		B46031EB243867E5007AE45A /* SuperAlarmInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SuperAlarmInfo.plist; sourceTree = "<group>"; };
+		B4CC50C424301ED40097FC38 /* Masterdata.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Masterdata.plist; sourceTree = "<group>"; };
+		B4CC50C6243373580097FC38 /* ComDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComDto.swift; sourceTree = "<group>"; };
+		B4CC50C8243373740097FC38 /* RouteDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDto.swift; sourceTree = "<group>"; };
+		B4CC50CA2433738F0097FC38 /* StationDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDto.swift; sourceTree = "<group>"; };
+		B4CC50CC2433739F0097FC38 /* HistoryDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDto.swift; sourceTree = "<group>"; };
+		B4CC87E02425E46F0024178F /* SuperAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4CC87E32425E46F0024178F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4CC87E52425E46F0024178F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B4CC87EA2425E46F0024178F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4CC87EF2425E4830024178F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4CC87F22425E4830024178F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4CC87F42425E4830024178F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4CC88002425E6B10024178F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B4CC88022425E6D60024178F /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		B4CC88042425E6E70024178F /* LineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineViewController.swift; sourceTree = "<group>"; };
+		B4CC88062425E70C0024178F /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		B4CC88082425E7320024178F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B4CC880A2425E7480024178F /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		B4CC880C2425E80A0024178F /* AlarmPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmPresenter.swift; sourceTree = "<group>"; };
+		B4CC88142425E8730024178F /* DatabaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseModel.swift; sourceTree = "<group>"; };
+		B4CC88172425EAAD0024178F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B4CC88242425EBFE0024178F /* SuperAlarmDBMolde.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SuperAlarmDBMolde.xcdatamodel; sourceTree = "<group>"; };
+		B4CC88272426F0EE0024178F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B4CC88292426F1390024178F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4CC87DD2425E46F0024178F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CC88282426F0EE0024178F /* MapKit.framework in Frameworks */,
+				B4CC882A2426F1390024178F /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4CC87D72425E46F0024178F = {
+			isa = PBXGroup;
+			children = (
+				B4CC87E22425E46F0024178F /* SuperAlarm */,
+				B4CC87E12425E46F0024178F /* Products */,
+				B4CC88262426F0ED0024178F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B4CC87E12425E46F0024178F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4CC87E02425E46F0024178F /* SuperAlarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4CC87E22425E46F0024178F /* SuperAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				B4CC88162425E8D10024178F /* DataTransferObject */,
+				B4CC87FC2425E5640024178F /* Model */,
+				B4CC87FF2425E5910024178F /* ViewController */,
+				B4CC87FE2425E58A0024178F /* Presenter */,
+				B4CC87E32425E46F0024178F /* AppDelegate.swift */,
+				B4CC87E52425E46F0024178F /* SceneDelegate.swift */,
+				B4CC87E92425E46F0024178F /* Main.storyboard */,
+				B4CC87EF2425E4830024178F /* Assets.xcassets */,
+				B4CC88172425EAAD0024178F /* Images.xcassets */,
+				B4CC87F12425E4830024178F /* LaunchScreen.storyboard */,
+				B4CC87F42425E4830024178F /* Info.plist */,
+				B4CC50C424301ED40097FC38 /* Masterdata.plist */,
+				B46031EB243867E5007AE45A /* SuperAlarmInfo.plist */,
+			);
+			path = SuperAlarm;
+			sourceTree = "<group>";
+		};
+		B4CC87FC2425E5640024178F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4CC88142425E8730024178F /* DatabaseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4CC87FE2425E58A0024178F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B4CC880C2425E80A0024178F /* AlarmPresenter.swift */,
+				B46031E92436B1A8007AE45A /* Globalvariable.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B4CC87FF2425E5910024178F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B4CC88002425E6B10024178F /* MainViewController.swift */,
+				B4CC88022425E6D60024178F /* HistoryViewController.swift */,
+				B4CC88042425E6E70024178F /* LineViewController.swift */,
+				B4CC88062425E70C0024178F /* ShareViewController.swift */,
+				B4CC88082425E7320024178F /* MapViewController.swift */,
+				B4CC880A2425E7480024178F /* SettingViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B4CC88162425E8D10024178F /* DataTransferObject */ = {
+			isa = PBXGroup;
+			children = (
+				B4CC50C6243373580097FC38 /* ComDto.swift */,
+				B4CC50C8243373740097FC38 /* RouteDto.swift */,
+				B4CC50CA2433738F0097FC38 /* StationDto.swift */,
+				B4CC50CC2433739F0097FC38 /* HistoryDto.swift */,
+				B4CC88232425EBFE0024178F /* SuperAlarmDBMolde.xcdatamodeld */,
+			);
+			name = DataTransferObject;
+			path = SuperAlarm/DataTransferObject;
+			sourceTree = SOURCE_ROOT;
+		};
+		B4CC88262426F0ED0024178F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4CC88292426F1390024178F /* AudioToolbox.framework */,
+				B4CC88272426F0EE0024178F /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4CC87DF2425E46F0024178F /* SuperAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4CC87F72425E4830024178F /* Build configuration list for PBXNativeTarget "SuperAlarm" */;
+			buildPhases = (
+				B4CC87DC2425E46F0024178F /* Sources */,
+				B4CC87DD2425E46F0024178F /* Frameworks */,
+				B4CC87DE2425E46F0024178F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperAlarm;
+			productName = SuperAlarm;
+			productReference = B4CC87E02425E46F0024178F /* SuperAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4CC87D82425E46F0024178F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = lion;
+				TargetAttributes = {
+					B4CC87DF2425E46F0024178F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B4CC87DB2425E46F0024178F /* Build configuration list for PBXProject "SuperAlarm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4CC87D72425E46F0024178F;
+			productRefGroup = B4CC87E12425E46F0024178F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4CC87DF2425E46F0024178F /* SuperAlarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4CC87DE2425E46F0024178F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46031EC243867E5007AE45A /* SuperAlarmInfo.plist in Resources */,
+				B4CC87F32425E4830024178F /* LaunchScreen.storyboard in Resources */,
+				B4CC50C524301ED40097FC38 /* Masterdata.plist in Resources */,
+				B4CC88182425EAAD0024178F /* Images.xcassets in Resources */,
+				B4CC87F02425E4830024178F /* Assets.xcassets in Resources */,
+				B4CC87EB2425E46F0024178F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4CC87DC2425E46F0024178F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46031EA2436B1A8007AE45A /* Globalvariable.swift in Sources */,
+				B4CC88152425E8730024178F /* DatabaseModel.swift in Sources */,
+				B4CC88252425EBFE0024178F /* SuperAlarmDBMolde.xcdatamodeld in Sources */,
+				B4CC880D2425E80A0024178F /* AlarmPresenter.swift in Sources */,
+				B4CC87E42425E46F0024178F /* AppDelegate.swift in Sources */,
+				B4CC50CB2433738F0097FC38 /* StationDto.swift in Sources */,
+				B4CC50CD2433739F0097FC38 /* HistoryDto.swift in Sources */,
+				B4CC87E62425E46F0024178F /* SceneDelegate.swift in Sources */,
+				B4CC88032425E6D60024178F /* HistoryViewController.swift in Sources */,
+				B4CC88092425E7320024178F /* MapViewController.swift in Sources */,
+				B4CC880B2425E7480024178F /* SettingViewController.swift in Sources */,
+				B4CC50C7243373580097FC38 /* ComDto.swift in Sources */,
+				B4CC88052425E6E70024178F /* LineViewController.swift in Sources */,
+				B4CC50C9243373740097FC38 /* RouteDto.swift in Sources */,
+				B4CC88072425E70C0024178F /* ShareViewController.swift in Sources */,
+				B4CC88012425E6B10024178F /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4CC87E92425E46F0024178F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4CC87EA2425E46F0024178F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4CC87F12425E4830024178F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4CC87F22425E4830024178F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4CC87F52425E4830024178F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4CC87F62425E4830024178F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4CC87F82425E4830024178F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BXXN376B4G;
+				INFOPLIST_FILE = SuperAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lion.SuperAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4CC87F92425E4830024178F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BXXN376B4G;
+				INFOPLIST_FILE = SuperAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lion.SuperAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4CC87DB2425E46F0024178F /* Build configuration list for PBXProject "SuperAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4CC87F52425E4830024178F /* Debug */,
+				B4CC87F62425E4830024178F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4CC87F72425E4830024178F /* Build configuration list for PBXNativeTarget "SuperAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4CC87F82425E4830024178F /* Debug */,
+				B4CC87F92425E4830024178F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B4CC88232425EBFE0024178F /* SuperAlarmDBMolde.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B4CC88242425EBFE0024178F /* SuperAlarmDBMolde.xcdatamodel */,
+			);
+			currentVersion = B4CC88242425EBFE0024178F /* SuperAlarmDBMolde.xcdatamodel */;
+			path = SuperAlarmDBMolde.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B4CC87D82425E46F0024178F /* Project object */;
+}
