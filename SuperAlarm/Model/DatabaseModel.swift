@@ -1,7 +1,7 @@
 //
 //  DatabaseModel.swift
 //  SuperAlarm
-//
+// 
 //  Created by lion on 2020/03/21.
 //  Copyright © 2020 lion. All rights reserved.
 //

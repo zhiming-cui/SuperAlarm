@@ -1,7 +1,7 @@
 //
 //  ComDto.swift
 //  SuperAlarm
-//
+//  comit
 //  Created by lion on 2020/03/31.
 //  Copyright © 2020 lion. All rights reserved.
 //
