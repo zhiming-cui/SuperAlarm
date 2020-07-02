@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -137,9 +137,9 @@
         <!--Setting View Controller-->
         <scene sceneID="IG2-Ml-cLz">
             <objects>
-                <viewController storyboardIdentifier="SettingStoryboard" id="t05-tD-0xb" customClass="SettingViewController" customModule="SuperAlarm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SettingStoryboard" modalPresentationStyle="fullScreen" id="t05-tD-0xb" customClass="SettingViewController" customModule="SuperAlarm" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2T1-QN-Qcf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="設定" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FlX-Of-58G">
@@ -166,10 +166,10 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="aFb-dR-9pJ">
-                                        <rect key="frame" x="0.0" y="28" width="369" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="369" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aFb-dR-9pJ" id="Xyd-sJ-cY8">
-                                            <rect key="frame" x="0.0" y="0.0" width="369" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="369" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -234,19 +234,19 @@
         <!--History View Controller-->
         <scene sceneID="Tdc-2N-9UU">
             <objects>
-                <viewController storyboardIdentifier="HistoryStoryboard" id="nS6-rB-joV" customClass="HistoryViewController" customModule="SuperAlarm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HistoryStoryboard" modalPresentationStyle="fullScreen" id="nS6-rB-joV" customClass="HistoryViewController" customModule="SuperAlarm" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RvB-Rw-TjO">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="目的地を指定してください。" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TYj-Fm-2VP">
-                                <rect key="frame" x="25" y="117" width="374" height="24"/>
+                                <rect key="frame" x="25" y="161" width="374" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="c6p-xl-H4F">
-                                <rect key="frame" x="25" y="172" width="369" height="521"/>
+                                <rect key="frame" x="25" y="216" width="369" height="531"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DataCell" id="1zh-az-E7D">
@@ -260,7 +260,7 @@
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3R-89-ggW">
-                                <rect key="frame" x="25" y="701" width="369" height="54"/>
+                                <rect key="frame" x="25" y="755" width="369" height="54"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="Qdd-Ev-TWx"/>
                                 </constraints>
@@ -299,9 +299,9 @@
         <!--Line View Controller-->
         <scene sceneID="qDk-bl-etY">
             <objects>
-                <viewController storyboardIdentifier="LineStoryboard" id="esF-BN-hAd" customClass="LineViewController" customModule="SuperAlarm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LineStoryboard" modalPresentationStyle="fullScreen" id="esF-BN-hAd" customClass="LineViewController" customModule="SuperAlarm" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5KB-UW-zBK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="目的地を指定してください。" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uYk-5F-S9G">
@@ -317,10 +317,10 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DataCell" id="bir-XK-IiC">
-                                        <rect key="frame" x="0.0" y="28" width="369" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="369" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bir-XK-IiC" id="2CC-Ex-ST6">
-                                            <rect key="frame" x="0.0" y="0.0" width="369" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="369" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -352,9 +352,9 @@
         <!--Share View Controller-->
         <scene sceneID="iN0-oJ-UYn">
             <objects>
-                <viewController storyboardIdentifier="ShareStoryboard" id="Wb5-pY-xje" customClass="ShareViewController" customModule="SuperAlarm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ShareStoryboard" modalPresentationStyle="fullScreen" id="Wb5-pY-xje" customClass="ShareViewController" customModule="SuperAlarm" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YGv-Fs-JLs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="目的地を指定してください。" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2fh-YI-nM2">
@@ -417,9 +417,9 @@
         <!--Map View Controller-->
         <scene sceneID="29G-YM-ZEP">
             <objects>
-                <viewController storyboardIdentifier="MapStoryboard" id="zaQ-9h-bhy" customClass="MapViewController" customModule="SuperAlarm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MapStoryboard" modalPresentationStyle="fullScreen" id="zaQ-9h-bhy" customClass="MapViewController" customModule="SuperAlarm" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="goD-c4-kca">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="目的地を指定してください。" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yxv-gr-0mK">
