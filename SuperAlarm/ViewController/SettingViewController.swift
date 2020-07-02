@@ -11,9 +11,18 @@ import UIKit
 
 class SettingViewController: UIViewController {
 
+    @IBOutlet weak var alarmTimesTxt: UITextField!
+    
+    @IBOutlet weak var distanceTxt: UITextField!
+    
+    /**
+     初期化する
+     */
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        alarmTimesTxt.text = ""
+        distanceTxt.text = ""
     }
 
 

@@ -174,7 +174,7 @@ class MainViewController: UIViewController {
                         //round(
                     }
                     //目的地周辺
-                    if(kmDistance < 0.3){
+                    if(kmDistance < 0.5){
                         msgLbl.text = "目的地[\(Globalvariables.objectName)]です。"
 
                         if(initFlg == true){
