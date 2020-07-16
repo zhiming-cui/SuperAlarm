@@ -67,9 +67,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>AlarmTimes</key>
-	<integer>2</integer>
-	<key>Distance</key>
-	<integer>500</integer>
 </dict>
 </plist>

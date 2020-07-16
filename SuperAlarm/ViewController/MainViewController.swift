@@ -31,6 +31,10 @@ class MainViewController: UIViewController {
     //Presenter
     let alarmPresenter = AlarmPresenter();
     
+    //アラートの基準距離の設定値を格納する
+    
+    
+
     /**
        画面初期化する
     */
@@ -51,6 +55,19 @@ class MainViewController: UIViewController {
         if alarmPresenter.getRouteDataList().count < 1{
             alarmPresenter.initMasterData()
         }
+        
+        //load the value of [distance] from properfies info.plist
+        var strDistance : String
+        var property: Dictionary<String, String> = [:]
+        let path = Bundle.main.path(forResource: "setting", ofType: "plist")
+        let configurations = NSDictionary(contentsOfFile: path!)
+        // マスタデータを取得する
+        if let _: [String : Any]  = configurations as? [String : String] {
+            property = configurations as! Dictionary<String, String>
+        }
+        strDistance = property["Distance"] as! String
+        print(strDistance)
+        distance = Double(strDistance) ?? 0
         
     }
     
@@ -174,7 +191,9 @@ class MainViewController: UIViewController {
                         //round(
                     }
                     //目的地周辺
-                    if(kmDistance < 0.5){
+//                    if(kmDistance < 0.5){
+                    print(distance)
+                    if(kmDistance < distance){
                         msgLbl.text = "目的地[\(Globalvariables.objectName)]です。"
 
                         if(initFlg == true){

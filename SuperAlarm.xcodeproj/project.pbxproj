@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7132718224C04597003BB180 /* setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7132718124C04597003BB180 /* setting.plist */; };
 		B46031EA2436B1A8007AE45A /* Globalvariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46031E92436B1A8007AE45A /* Globalvariable.swift */; };
 		B46031EC243867E5007AE45A /* SuperAlarmInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = B46031EB243867E5007AE45A /* SuperAlarmInfo.plist */; };
 		B4CC50C524301ED40097FC38 /* Masterdata.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4CC50C424301ED40097FC38 /* Masterdata.plist */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7132718124C04597003BB180 /* setting.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = setting.plist; sourceTree = "<group>"; };
 		B46031E92436B1A8007AE45A /* Globalvariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globalvariable.swift; sourceTree = "<group>"; };
 		B46031EB243867E5007AE45A /* SuperAlarmInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SuperAlarmInfo.plist; sourceTree = "<group>"; };
 		B4CC50C424301ED40097FC38 /* Masterdata.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Masterdata.plist; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				B4CC88172425EAAD0024178F /* Images.xcassets */,
 				B4CC87F12425E4830024178F /* LaunchScreen.storyboard */,
 				B4CC87F42425E4830024178F /* Info.plist */,
+				7132718124C04597003BB180 /* setting.plist */,
 				B4CC50C424301ED40097FC38 /* Masterdata.plist */,
 				B46031EB243867E5007AE45A /* SuperAlarmInfo.plist */,
 			);
@@ -225,6 +228,7 @@
 				B46031EC243867E5007AE45A /* SuperAlarmInfo.plist in Resources */,
 				B4CC87F32425E4830024178F /* LaunchScreen.storyboard in Resources */,
 				B4CC50C524301ED40097FC38 /* Masterdata.plist in Resources */,
+				7132718224C04597003BB180 /* setting.plist in Resources */,
 				B4CC88182425EAAD0024178F /* Images.xcassets in Resources */,
 				B4CC87F02425E4830024178F /* Assets.xcassets in Resources */,
 				B4CC87EB2425E46F0024178F /* Main.storyboard in Resources */,
